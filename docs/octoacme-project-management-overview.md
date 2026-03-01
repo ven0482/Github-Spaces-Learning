@@ -17,8 +17,11 @@ Applies to all cross-functional projects that deliver product features, services
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- QA/Testing: validate quality and acceptance criteria; own test plans and release sign-off.
+- UX Designer: conducts user research, creates designs and prototypes, validates usability.
+- DevOps Engineer: builds and maintains CI/CD pipelines, infrastructure, and deployment processes.
+- Data Analyst: defines and tracks success metrics, builds dashboards, surfaces post-release insights.
+- Stakeholders: provide strategic direction, approvals, and business requirements (see stakeholder types in roles doc).
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -38,7 +41,10 @@ Applies to all cross-functional projects that deliver product features, services
 ## Communication Cadence
 - Weekly sync between PM + PdM
 - Twice-weekly standups for delivery team (or as agreed)
+- Weekly metric review between PM, PdM, and Data Analyst
 - Monthly stakeholder updates
+- Design reviews scheduled at the start of each feature (UX Designer + PdM + Developers)
+- Release coordination meeting before each deployment (DevOps Engineer + QA + PM)
 - Ad-hoc escalations as needed
 
 ## How to use these docs
